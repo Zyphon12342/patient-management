@@ -10,7 +10,7 @@ public class PatientMapper {
         patientDTO.setName(patient.getName());
         patientDTO.setAddress(patient.getAddress());
         patientDTO.setEmail(patient.getEmail());
-
+        patientDTO.setDateOfBirth(patient.getDateOfBirth().toString());
         // Didn't expose register date to Client
         return patientDTO;
     }
