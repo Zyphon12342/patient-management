@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
     "name" : "Shivansh Kandpal",
-    "email" : "shivanshtestcre@gmail.com",
+    "email" : "shivanshtest@gmail.com",
     "address" : "Kolkata, Anand Vihar",
     "dateOfBirth" : "2004-12-28",
     "registeredDate" : "2025-01-07"
