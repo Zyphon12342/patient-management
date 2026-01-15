@@ -10,5 +10,4 @@ public class LoginResponseDTO {
     public String getToken() {
         return token;
     }
-
 }
