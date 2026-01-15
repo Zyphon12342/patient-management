@@ -1,4 +1,4 @@
-package com.pm.authservice.DTO;
+package com.pm.authservice.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
