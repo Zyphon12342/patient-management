@@ -12,12 +12,13 @@ public class AuthIntegrationTest {
     static void setUp() {
         RestAssured.baseURI = "http://localhost:4004";
     }
+    // 1. Arrange: ensure that the test has everything it needs to run properly
+    // 2. act: Test begins
+    // 3. assert: Assert act result with expected behavior
 
     @Test
     public void shouldReturnOKWithValidToken() {
-        // 1. Arrange: ensure that the test has everything it needs to run properly
-        // 2. act: Test begins
-        // 3. assert: Assert act result with expected behavior
+
 
 
         // Arrange
