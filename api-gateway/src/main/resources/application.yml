@@ -6,6 +6,12 @@ spring:
     gateway:
       routes:
 
+        # Health check route for ALB — no JWT filter
+        - id: health-check-route
+          uri: http://localhost:4004
+          predicates:
+            - Path=/actuator/health
+
         # Route for /api/auth/** to auth-service
         - id: auth-service-route
           uri: http://auth-service:4005

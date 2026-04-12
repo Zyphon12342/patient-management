@@ -7,8 +7,8 @@
         <option name="envVars">
           <list>
             <DockerEnvVarImpl>
-              <option name="name" value="SPRING_KAFKA_BOOTSTRAP_SERVERS" />
-              <option name="value" value="kafka:9092" />
+              <option name="name" value="MSK_BOOTSTRAP_SERVERS" />
+              <option name="value" value="b-1.xxx.kafka.ap-south-1.amazonaws.com:9096,b-2.xxx.kafka.ap-south-1.amazonaws.com:9096" />
             </DockerEnvVarImpl>
           </list>
         </option>

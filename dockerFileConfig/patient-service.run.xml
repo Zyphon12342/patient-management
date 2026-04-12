@@ -15,28 +15,16 @@
               <option name="value" value="9001" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
-              <option name="name" value="SPRING_DATASOURCE_PASSWORD" />
-              <option name="value" value="password" />
+              <option name="name" value="AWS_REGION" />
+              <option name="value" value="ap-south-1" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
-              <option name="name" value="SPRING_DATASOURCE_URL" />
-              <option name="value" value="jdbc:postgresql://patient-service-db:5432/db" />
+              <option name="name" value="RDS_ENDPOINT" />
+              <option name="value" value="your-patient-rds-endpoint.rds.amazonaws.com" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
-              <option name="name" value="SPRING_DATASOURCE_USERNAME" />
-              <option name="value" value="admin_user" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
-              <option name="name" value="SPRING_JPA_HIBERNATE_DDL_AUTO" />
-              <option name="value" value="update" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
-              <option name="name" value="SPRING_SQL_INIT_MODE" />
-              <option name="value" value="always" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
-              <option name="name" value="SPRING_KAFKA_BOOTSTRAP_SERVERS" />
-              <option name="value" value="kafka:9092" />
+              <option name="name" value="MSK_BOOTSTRAP_SERVERS" />
+              <option name="value" value="b-1.xxx.kafka.ap-south-1.amazonaws.com:9096,b-2.xxx.kafka.ap-south-1.amazonaws.com:9096" />
             </DockerEnvVarImpl>
           </list>
         </option>
